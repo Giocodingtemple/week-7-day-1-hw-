@@ -4,7 +4,7 @@ var my_list, test_list;
 
 function hello_username(username) {
   /* Print's a greeting to a specific user */
-  console.log(`hello_${username.upper()}`);
+  console.log(`hello_${username}`);
 }
 
 hello_username("username");
@@ -48,7 +48,7 @@ function is_leap_year(a_year) {
   }
 }
 
-console.log(is_leap_year(2000));
+console.log(is_leap_year(2022));
 
 // -----------Question 5
 // Write a function to check to see if all numbers in list are consecutive numbers.
