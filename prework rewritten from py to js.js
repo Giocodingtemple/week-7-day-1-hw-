@@ -13,7 +13,7 @@ hello_username("username");
 // Write a python function, first_odds that prints the odd numbers from 1-100 and returns nothing    
 function first_odds() {
   /* When called prints a list of every odd number 1-100 */
-  for (var num = 1, _pj_a = 101; num < _pj_a; num += 1) {
+  for (var num = 0, _pj_a = 101; num < _pj_a; num += 1) {
     if (num % 2 !== 0) {
       console.log(num);
     }
@@ -48,13 +48,14 @@ function is_leap_year(a_year) {
   }
 }
 
-console.log(is_leap_year(2022));
+console.log(is_leap_year(2012));
 
 // -----------Question 5
 // Write a function to check to see if all numbers in list are consecutive numbers.
 function is_consectutive(a_list) {
   var check;
   check = 0;
+  a_list = [1, 2, 3, 4, 5, 6, 7, 8];
 
   for (var index = 0, _pj_a = a_list.length; index < _pj_a; index += 1) {
     if (index !== max(range(a_list.length))) {
@@ -71,5 +72,4 @@ function is_consectutive(a_list) {
   }
 }
 
-test_list = [1, 2, 3, 4, 5, 6, 7, 8];
-console.log(is_consectutive(test_list));
+console.log(is_consectutive(test_list))
