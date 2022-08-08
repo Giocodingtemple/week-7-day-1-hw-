@@ -41,7 +41,7 @@ function max_num_in_list(list) {
     return max;
   }
   
-console.log(max_num_in_list([1, 3, 4, 14, 85, 25, 35, 42]));
+console.log(max_num_in_list([1,2,3,4,5,6,7,8,9,10]));
 console.log("==========================");
 
 // -----------Question 4
@@ -59,9 +59,12 @@ function is_leap_year(a_year) {
 }
 
 console.log(is_leap_year(2012));
+console.log("==========================");
 console.log(is_leap_year(2016));
+console.log("==========================");
 console.log(is_leap_year(2020));
-console.log(is_leap_year(2022));
+console.log("==========================");
+console.log(is_leap_year(2024));
 console.log("==========================");
 
 
